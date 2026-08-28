@@ -1,0 +1,19 @@
+{
+  "candidate": 19,
+  "purpose": "retain the native Chromium sandbox on Windows 2000 while skipping only two interception targets not exported by its ntdll",
+  "native_probe": {
+    "NtOpenProcessTokenEx": "absent, GetProcAddress error 127",
+    "NtOpenThreadTokenEx": "absent, GetProcAddress error 127",
+    "NtOpenProcessToken": "present",
+    "NtOpenThreadToken": "present",
+    "other_required_Nt_interception_targets": "present"
+  },
+  "chrome_exe": {
+    "sha256_before": "10A50B3EBABDACDDC9063C7B4429E80E85D8600DF89990E7A321C54CFEA16209",
+    "sha256_after": "52CC9AE71BD5A847ED26D676BABB43F6308C62E0EBEEFD19363DADBCF8F2C38B",
+    "skip_from_rva": "0x0003B70D",
+    "skip_to_rva": "0x0003B749",
+    "replacement": "E9 37 00 00 00",
+    "checksum": "0x0029FA18"
+  }
+}

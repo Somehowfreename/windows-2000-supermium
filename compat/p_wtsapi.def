@@ -1,0 +1,7 @@
+LIBRARY p_wtsapi.dll
+
+EXPORTS
+_WTSFreeMemory@4
+_WTSQuerySessionInformationW@20
+_WTSRegisterSessionNotification@8
+_WTSUnRegisterSessionNotification@4

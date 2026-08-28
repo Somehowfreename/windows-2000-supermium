@@ -1,0 +1,774 @@
+[
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\setup.exe",
+    "os_version": {
+      "before": [
+        5,
+        1
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        5,
+        1
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\144.0.7559.256\\d3dcompiler_47.dll",
+    "os_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        5,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\api-ms-win-crt-heap-l1-1-0.dll",
+    "os_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\api-ms-win-crt-math-l1-1-0.dll",
+    "os_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\api-ms-win-crt-runtime-l1-1-0.dll",
+    "os_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\api-ms-win-crt-stdio-l1-1-0.dll",
+    "os_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\api-ms-win-crt-string-l1-1-0.dll",
+    "os_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\d3dcompiler_47.dll",
+    "os_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\dbghelp.dll",
+    "os_version": {
+      "before": [
+        6,
+        1
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        5,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\DWrite.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": [
+      "ntdll.dll->p_ntd.dll (RtlCaptureContext)"
+    ]
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_advp32.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_cry32.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_cryptp.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_dnsa.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_dwma.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_evapi.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_iphlpa.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_ntd.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_ole.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_powrpf.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_s232.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_setapi.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_user.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_usren.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_vcrt.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\p_whttp.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\pdxg.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\pwp_shd.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\pwp_shl.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\pwrp_k32.dll",
+    "os_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        6,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\ucrtbase.dll",
+    "os_version": {
+      "before": [
+        10,
+        0
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        5,
+        1
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": [
+      "ntdll.dll->p_ntd.dll (RtlCaptureContext)"
+    ]
+  },
+  {
+    "path": "C:\\Users\\L\\Documents\\Codex\\2026-08-16\\i-wan\\work\\candidates\\supermium-144-r5-w2k-1\\Supermium\\uninstall.exe",
+    "os_version": {
+      "before": [
+        5,
+        1
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "subsystem_version": {
+      "before": [
+        5,
+        1
+      ],
+      "after": [
+        5,
+        0
+      ]
+    },
+    "import_redirects": []
+  }
+]

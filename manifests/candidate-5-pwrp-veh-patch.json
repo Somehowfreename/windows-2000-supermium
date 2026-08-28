@@ -1,0 +1,52 @@
+{
+  "path": "work\\candidates\\supermium-144-r5-w2k-5\\Supermium\\pwrp_k32.dll",
+  "candidate": 5,
+  "implemented": [
+    "AddVectoredExceptionHandler via w2kveh.dll native dispatcher hook",
+    "RemoveVectoredExceptionHandler with ordered, reference-counted registrations"
+  ],
+  "bridge": {
+    "dll": "w2kveh.dll",
+    "add_export": "_W2KAddVectoredExceptionHandler@8",
+    "remove_export": "_W2KRemoveVectoredExceptionHandler@4"
+  },
+  "sha256_before": "D80EB172E625193EEA6E9F6D73A33A5B452E8565ABDB5AD2F53FAA6857FD32B8",
+  "sha256_after": "2591AFBE91363C1B1B2DA04957F8F74ACAA75A34B96C7718F6A8C4995D0CD75B",
+  "patches": [
+    {
+      "rva": "0x1C360",
+      "file_offset": "0x1B760",
+      "length": 24,
+      "before_bytes": "8B 44 24 08 C2 08 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90",
+      "after_bytes": "E9 9B 05 01 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90"
+    },
+    {
+      "rva": "0x24FC0",
+      "file_offset": "0x243C0",
+      "length": 24,
+      "before_bytes": "31 C0 83 7C 24 04 00 0F 95 C0 C2 04 00 90 90 90 90 90 90 90 90 90 90 90",
+      "after_bytes": "E9 7B 79 00 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90"
+    },
+    {
+      "rva": "0x2C900",
+      "file_offset": "0x2BD00",
+      "length": 57,
+      "before_bytes": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "after_bytes": "53 E8 00 00 00 00 5B 81 EB 06 C9 02 00 8D 83 80 C9 02 00 50 FF 93 0C D1 02 00 85 C0 74 15 8D 8B 8B C9 02 00 51 50 FF 93 B8 D0 02 00 85 C0 74 03 5B FF E0 5B 31 C0 C2 08 00"
+    },
+    {
+      "rva": "0x2C940",
+      "file_offset": "0x2BD40",
+      "length": 57,
+      "before_bytes": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "after_bytes": "53 E8 00 00 00 00 5B 81 EB 46 C9 02 00 8D 83 80 C9 02 00 50 FF 93 0C D1 02 00 85 C0 74 15 8D 8B AD C9 02 00 51 50 FF 93 B8 D0 02 00 85 C0 74 03 5B FF E0 5B 31 C0 C2 04 00"
+    },
+    {
+      "rva": "0x2C980",
+      "file_offset": "0x2BD80",
+      "length": 82,
+      "before_bytes": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "after_bytes": "77 32 6B 76 65 68 2E 64 6C 6C 00 5F 57 32 4B 41 64 64 56 65 63 74 6F 72 65 64 45 78 63 65 70 74 69 6F 6E 48 61 6E 64 6C 65 72 40 38 00 5F 57 32 4B 52 65 6D 6F 76 65 56 65 63 74 6F 72 65 64 45 78 63 65 70 74 69 6F 6E 48 61 6E 64 6C 65 72 40 34 00"
+    }
+  ]
+}

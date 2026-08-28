@@ -1,0 +1,108 @@
+{
+  "path": "work\\candidates\\supermium-144-r5-w2k-11\\Supermium\\pwrp_k32.dll",
+  "candidate": 11,
+  "purpose": "replace broken SRW lock and condition variable emulation on Windows 2000",
+  "bridge": "w2ksync.dll",
+  "w2k_section_characteristics": "0xE0000020",
+  "functions": [
+    {
+      "export": "AcquireSRWLockExclusive",
+      "export_rva": "0x197E5",
+      "resolver_rva": "0x73400",
+      "cache_slot_rva": "0x73900",
+      "bridge_export": "_W2KAcquireSRWLockExclusive@4",
+      "relocation_rva": "0x197E7"
+    },
+    {
+      "export": "AcquireSRWLockShared",
+      "export_rva": "0x197EB",
+      "resolver_rva": "0x73450",
+      "cache_slot_rva": "0x73904",
+      "bridge_export": "_W2KAcquireSRWLockShared@4",
+      "relocation_rva": "0x197ED"
+    },
+    {
+      "export": "InitializeConditionVariable",
+      "export_rva": "0x1AD2A",
+      "resolver_rva": "0x734A0",
+      "cache_slot_rva": "0x73908",
+      "bridge_export": "_W2KInitializeConditionVariable@4",
+      "relocation_rva": "0x1AD2C"
+    },
+    {
+      "export": "InitializeSRWLock",
+      "export_rva": "0x1AD60",
+      "resolver_rva": "0x734F0",
+      "cache_slot_rva": "0x7390C",
+      "bridge_export": "_W2KInitializeSRWLock@4",
+      "relocation_rva": "0x1AD62"
+    },
+    {
+      "export": "ReleaseSRWLockExclusive",
+      "export_rva": "0x1B552",
+      "resolver_rva": "0x73540",
+      "cache_slot_rva": "0x73910",
+      "bridge_export": "_W2KReleaseSRWLockExclusive@4",
+      "relocation_rva": "0x1B554"
+    },
+    {
+      "export": "ReleaseSRWLockShared",
+      "export_rva": "0x1B558",
+      "resolver_rva": "0x73590",
+      "cache_slot_rva": "0x73914",
+      "bridge_export": "_W2KReleaseSRWLockShared@4",
+      "relocation_rva": "0x1B55A"
+    },
+    {
+      "export": "SleepConditionVariableCS",
+      "export_rva": "0x1BA80",
+      "resolver_rva": "0x735E0",
+      "cache_slot_rva": "0x73918",
+      "bridge_export": "_W2KSleepConditionVariableCS@12",
+      "relocation_rva": "0x1BA82"
+    },
+    {
+      "export": "SleepConditionVariableSRW",
+      "export_rva": "0x1BA86",
+      "resolver_rva": "0x73630",
+      "cache_slot_rva": "0x7391C",
+      "bridge_export": "_W2KSleepConditionVariableSRW@16",
+      "relocation_rva": "0x1BA88"
+    },
+    {
+      "export": "TryAcquireSRWLockExclusive",
+      "export_rva": "0x1BB76",
+      "resolver_rva": "0x73680",
+      "cache_slot_rva": "0x73920",
+      "bridge_export": "_W2KTryAcquireSRWLockExclusive@4",
+      "relocation_rva": "0x1BB78"
+    },
+    {
+      "export": "TryAcquireSRWLockShared",
+      "export_rva": "0x1BB7C",
+      "resolver_rva": "0x736D0",
+      "cache_slot_rva": "0x73924",
+      "bridge_export": "_W2KTryAcquireSRWLockShared@4",
+      "relocation_rva": "0x1BB7E"
+    },
+    {
+      "export": "WakeAllConditionVariable",
+      "export_rva": "0x1BCDE",
+      "resolver_rva": "0x73720",
+      "cache_slot_rva": "0x73928",
+      "bridge_export": "_W2KWakeAllConditionVariable@4",
+      "relocation_rva": "0x1BCE0"
+    },
+    {
+      "export": "WakeConditionVariable",
+      "export_rva": "0x1BCF0",
+      "resolver_rva": "0x73770",
+      "cache_slot_rva": "0x7392C",
+      "bridge_export": "_W2KWakeConditionVariable@4",
+      "relocation_rva": "0x1BCF2"
+    }
+  ],
+  "checksum": "0x000732DE",
+  "sha256_before": "7161AB7E44178F6770D7A73338D4F81868AC86ACB972FBBFC782ABF17C76C688",
+  "sha256_after": "0A66CF8A1E7D038159836E848A9366D2085F74AC086D0A2E15CD82215C9908D6"
+}

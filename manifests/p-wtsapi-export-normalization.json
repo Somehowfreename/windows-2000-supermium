@@ -1,0 +1,28 @@
+{
+  "path": "work\\compat\\p_wtsapi.dll",
+  "changes": [
+    {
+      "old": "_WTSFreeMemory@4",
+      "new": "WTSFreeMemory",
+      "file_offset": 1917
+    },
+    {
+      "old": "_WTSQuerySessionInformationW@20",
+      "new": "WTSQuerySessionInformationW",
+      "file_offset": 1934
+    },
+    {
+      "old": "_WTSRegisterSessionNotification@8",
+      "new": "WTSRegisterSessionNotification",
+      "file_offset": 1966
+    },
+    {
+      "old": "_WTSUnRegisterSessionNotification@4",
+      "new": "WTSUnRegisterSessionNotification",
+      "file_offset": 2000
+    }
+  ],
+  "checksum": "0x00002443",
+  "sha256_before": "5925008E675624CC25F4114EFE7AC52DA53A4FCC5E923A77322D4B0068133967",
+  "sha256_after": "418E34C1122C226ED62EDE8685E03908B4AF6C7227A9DB9E35614276964961C7"
+}

@@ -1,0 +1,25 @@
+{
+  "candidate": 12,
+  "purpose": [
+    "implement IsProcessInJob for the Windows 2000 sandbox launcher",
+    "use the Windows 2000 processor PDH counter instead of Hyper-V"
+  ],
+  "w2ksync_sha256": "F1EDAC1B7975E8C44067B33C91112FA4999340424078DDBE4E163E25677116AC",
+  "pwrp": {
+    "sha256_before": "0A66CF8A1E7D038159836E848A9366D2085F74AC086D0A2E15CD82215C9908D6",
+    "sha256_after": "69B69CE206D907819244DB3C11A67042F4C57B1920D9D60E183B7017D4EDAD42",
+    "export_rva": "0x1AE20",
+    "resolver_rva": "0x737C0",
+    "slot_rva": "0x73930",
+    "bridge_name_rva": "0x73B73",
+    "checksum": "0x00075B63"
+  },
+  "chrome": {
+    "sha256_before": "5A462A4BC5CB3F407B4A2037EB00F91329A2C1D2927645E360526356B37ECA8B",
+    "sha256_after": "0173C32E5A4D975B8B1E6240EDA2E3B66738BC17EFD5310037191F9C429DE1D4",
+    "file_offset": "0xAB21E14",
+    "old_counter": "\\Hyper-V Hypervisor Logical Processor(_Total)\\% Total Run Time",
+    "new_counter": "\\Processor(_Total)\\% Processor Time",
+    "checksum": "0x0C74021D"
+  }
+}

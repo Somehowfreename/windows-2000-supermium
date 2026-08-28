@@ -1,0 +1,11 @@
+{
+  "path": "work\\candidates\\supermium-144-r5-w2k-2\\Supermium\\p_cryptp.dll",
+  "reason": "Windows 2000 does not define PROV_RSA_AES (24); use PROV_RSA_FULL (1) for the CRYPT_VERIFYCONTEXT random provider",
+  "rva": "0x12A8",
+  "file_offset": "0x6A8",
+  "before": "6A 18",
+  "after": "6A 01",
+  "changed": true,
+  "sha256_before": "547CA6121333AA6E12D3A86CEC25D9AB181F8F845B5570669BD07D3AAF891973",
+  "sha256_after": "4611005457D32E945F5AD0CC0037F0A269ECB882DF879798C8AFE5382B654298"
+}

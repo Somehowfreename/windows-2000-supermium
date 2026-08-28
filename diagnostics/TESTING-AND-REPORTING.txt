@@ -1,0 +1,54 @@
+SUPERMIUM WINDOWS 2000 Release Candidate 1 - TESTING AND GITHUB ISSUE GUIDE
+============================================================
+
+Thank you for testing this experimental Windows 2000 compatibility build.
+Reports of successful behavior are as useful as reports of failures because
+they establish which real hardware and drivers are compatible.
+
+GitHub Issues:
+https://github.com/Somehowfreename/windows-2000-supermium/issues/new/choose
+
+PRIORITY TEST: YOUTUBE
+----------------------
+YouTube is the principal reason this release is labelled a Release Candidate 1. The page and
+video stream progressed in VM tests, but sustained audible playback could not
+be evaluated conclusively because the available VirtualBox guest repeated audio
+buffers even for native Windows sounds before Supermium was launched.
+Development did not have access to bare-metal Windows 2000 hardware. A VM can
+only confirm so much about physical audio, graphics, timing, and driver behavior.
+
+Before testing YouTube:
+1. Confirm that an ordinary Windows sound or WAV file plays normally.
+2. Open "Supermium with Diagnostics.cmd" and confirm that one diagnostic session.
+3. Play a public, non-sensitive YouTube video for at least five minutes.
+4. Test pause/resume, seeking, volume changes, fullscreen and closing the tab.
+5. Click the diagnostic extension icon and select the fixed marker that matches
+   what you observe: working, audio looping, audio missing, or video stuttering.
+6. Close Supermium normally and review every generated diagnostic file.
+
+Logs are in "Diagnostic Logs" beside "Supermium W2K RC1.exe". Diagnostic mode
+uses an isolated temporary test profile and attempts to remove it on exit. Do not
+sign in or enter private data during a diagnostic session. If cleanup is reported
+as incomplete, do not share any "Private Temporary Profile-*" folder.
+
+WHAT TO INCLUDE IN A GITHUB ISSUE
+---------------------------------
+- Whether this is bare-metal hardware, VirtualBox, QEMU, VMware or another VM.
+- Windows 2000 edition, service-pack level and installed update collection.
+- CPU model and count, installed RAM, graphics adapter/driver, sound adapter/driver.
+- Whether ordinary Windows audio works correctly before Supermium starts.
+- The exact steps, expected result and actual result.
+- Whether the problem repeats after a clean reboot and with extensions disabled.
+- For YouTube: resolution, approximate playback time before failure, video/audio
+  behavior, pause/resume result, seek result and the fixed marker you selected.
+- The reviewed diagnostic session files, if you freely choose to share them.
+
+PRIVACY BEFORE SUBMITTING
+-------------------------
+Nothing is uploaded automatically. Open every file in Notepad before attaching
+it. You may edit, delete, keep or decline to share any file. The standard report
+is designed to exclude usernames, computer names, network addresses, URLs,
+YouTube titles/IDs, accounts, cookies, passwords, history and personal files.
+
+Do not attach full crash dumps unless a maintainer specifically requests one and
+you understand that process-memory dumps can contain private information.

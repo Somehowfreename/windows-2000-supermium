@@ -1,0 +1,17 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.def text eol=crlf
+*.vbs text eol=crlf
+*.c text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.pem text eol=lf
+*.sha256 text eol=lf
+*.cer binary
+*.exe binary
+*.zip binary

@@ -1,0 +1,13 @@
+{
+  "path": "work\\candidates\\supermium-144-r5-w2k-3\\Supermium\\pwrp_k32.dll",
+  "purpose": "Implement GetNativeSystemInfo on native 32-bit Windows 2000 by tail-jumping to GetSystemInfo",
+  "rva": "0x21020",
+  "file_offset": "0x20420",
+  "length": 24,
+  "relocation_rva": "0x21023",
+  "iat_target_va": "0x1002D140",
+  "before_bytes": "6A 00 68 E8 64 03 10 68 54 C3 03 10 6A 00 E8 87 B8 00 00 E9 7C B8 00 00",
+  "after_bytes": "90 FF 25 40 D1 02 10 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90",
+  "sha256_before": "0EDBCAD220A314705DDB50465F2C0F0E61F0C4ACE3FA0D946C56FA06612AE15F",
+  "sha256_after": "6F32B2B392A8710B771F6A370F28A6212690FCFD430D964AFE1AAE6D546E7DB3"
+}

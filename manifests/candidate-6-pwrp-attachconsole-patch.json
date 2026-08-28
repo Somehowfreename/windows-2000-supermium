@@ -1,0 +1,74 @@
+{
+  "path": "work\\candidates\\supermium-144-r5-w2k-6\\Supermium\\pwrp_k32.dll",
+  "candidate": 6,
+  "implemented": [
+    "AttachConsole returns FALSE and sets ERROR_CALL_NOT_IMPLEMENTED on Windows 2000",
+    "Stale relocations neutralized for all position-independent patched wrapper stubs"
+  ],
+  "attach_console": {
+    "stub_rva": "0x1C5C0",
+    "bridge_rva": "0x2C9E0",
+    "error": 120,
+    "before_bytes": "6A 00 68 E8 64 03 10 68 E0 6A 03 10 6A 00 E8 E7 02 01 00 E9 DC 02 01 00",
+    "after_bytes": "E9 1B 04 01 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90",
+    "bridge_bytes": "53 E8 00 00 00 00 5B 81 EB E6 C9 02 00 6A 78 FF 93 54 D0 02 00 5B 31 C0 C2 04 00"
+  },
+  "relocations": [
+    {
+      "rva": "0x1C363",
+      "file_offset": "0x6CB4A",
+      "before_type": 3,
+      "after_type": 0
+    },
+    {
+      "rva": "0x1C368",
+      "file_offset": "0x6CB4C",
+      "before_type": 3,
+      "after_type": 0
+    },
+    {
+      "rva": "0x1C5C3",
+      "file_offset": "0x6CB96",
+      "before_type": 3,
+      "after_type": 0
+    },
+    {
+      "rva": "0x1C5C8",
+      "file_offset": "0x6CB98",
+      "before_type": 3,
+      "after_type": 0
+    },
+    {
+      "rva": "0x21028",
+      "file_offset": "0x6D50E",
+      "before_type": 3,
+      "after_type": 0
+    },
+    {
+      "rva": "0x215E3",
+      "file_offset": "0x6D5C4",
+      "before_type": 3,
+      "after_type": 0
+    },
+    {
+      "rva": "0x215E8",
+      "file_offset": "0x6D5C6",
+      "before_type": 3,
+      "after_type": 0
+    },
+    {
+      "rva": "0x24FC3",
+      "file_offset": "0x6DD18",
+      "before_type": 3,
+      "after_type": 0
+    },
+    {
+      "rva": "0x24FC8",
+      "file_offset": "0x6DD1A",
+      "before_type": 3,
+      "after_type": 0
+    }
+  ],
+  "sha256_before": "2591AFBE91363C1B1B2DA04957F8F74ACAA75A34B96C7718F6A8C4995D0CD75B",
+  "sha256_after": "694402D5B2A59D47B92ADB3ADACB6363627F614A62F54090339207E4ABD1A518"
+}

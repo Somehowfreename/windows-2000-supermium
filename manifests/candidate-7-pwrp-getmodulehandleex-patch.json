@@ -1,0 +1,27 @@
+{
+  "path": "work\\candidates\\supermium-144-r5-w2k-7\\Supermium\\pwrp_k32.dll",
+  "candidate": 7,
+  "implemented": [
+    "GetModuleHandleExA including FROM_ADDRESS and UNCHANGED_REFCOUNT",
+    "new executable .w2k section for subsequent compatibility thunks"
+  ],
+  "export_rva": "0x1A790",
+  "resolver_rva": "0x73000",
+  "section": {
+    "name": ".w2k",
+    "rva": "0x73000",
+    "virtual_size": 8192,
+    "raw_offset": "0x6EA00",
+    "raw_size": 8192,
+    "characteristics": "0x60000020"
+  },
+  "relocation": {
+    "rva": "0x1A792",
+    "file_offset": "0x6C2CA",
+    "before_type": 3,
+    "after_type": 0
+  },
+  "checksum": "0x00073420",
+  "sha256_before": "694402D5B2A59D47B92ADB3ADACB6363627F614A62F54090339207E4ABD1A518",
+  "sha256_after": "03C139C4F959912AFCD67168B6EBDEE3072FE152397D0681830F6E2D1106A2CE"
+}

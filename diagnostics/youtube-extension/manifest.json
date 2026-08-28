@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Supermium W2K Release Candidate 1 YouTube Diagnostics",
+  "version": "1.0.0",
+  "description": "Privacy-preserving YouTube media telemetry for the Supermium Windows 2000 Release Candidate 1.",
+  "permissions": [],
+  "host_permissions": [
+    "http://127.0.0.1:9223/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://m.youtube.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "action": {
+    "default_title": "Supermium W2K YouTube Diagnostics",
+    "default_popup": "popup.html"
+  }
+}

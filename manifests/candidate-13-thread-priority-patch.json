@@ -1,0 +1,10 @@
+{
+  "candidate": 13,
+  "purpose": "avoid Windows 2000 renderer startup stalls in Chromium's modern thread-priority policy",
+  "symbol": "base::(anonymous namespace)::SetThreadPriority",
+  "rva": "0x00A5E510",
+  "replacement": "return immediately; retain Windows 2000 scheduler defaults",
+  "checksum": "0x0C73D715",
+  "sha256_before": "0173C32E5A4D975B8B1E6240EDA2E3B66738BC17EFD5310037191F9C429DE1D4",
+  "sha256_after": "0EE4224547FEF1ACEE80DEEEEE6CEC3EB4BB4D44FE870A4948271A78449BB2EA"
+}

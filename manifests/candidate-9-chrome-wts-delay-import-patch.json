@@ -1,0 +1,16 @@
+{
+  "path": "work\\candidates\\supermium-144-r5-w2k-9\\Supermium\\144.0.7559.256\\chrome.dll",
+  "candidate": 9,
+  "implemented": [
+    "route WTSAPI32 delay imports through p_wtsapi.dll",
+    "forward WTSQuerySessionInformationW and WTSFreeMemory to Windows 2000",
+    "emulate unavailable WTS session notification registration as successful"
+  ],
+  "delay_dll_name_rva": "0xBF99F24",
+  "delay_dll_name_file_offset": "0xBF98924",
+  "delay_dll_before": "WTSAPI32.dll",
+  "delay_dll_after": "p_wtsapi.dll",
+  "checksum": "0x0C740B97",
+  "sha256_before": "8153C0D90C46E3C12F1BC51C9F9A89449783563EC3B9733F1CD1168F2B90B4B7",
+  "sha256_after": "5A462A4BC5CB3F407B4A2037EB00F91329A2C1D2927645E360526356B37ECA8B"
+}

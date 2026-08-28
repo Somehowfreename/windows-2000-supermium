@@ -1,0 +1,22 @@
+{
+  "candidate": 18,
+  "purpose": "retain Chromium's Windows sandbox on Windows 2000 by removing only the unsupported JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE bit",
+  "native_probe": {
+    "extended_without_flag": "success",
+    "extended_with_flag": "ERROR_INVALID_PARAMETER (87)",
+    "active_process_limit": "success",
+    "unhandled_exception_limit": "success in extended information",
+    "ui_restrictions": "success"
+  },
+  "pwrp": {
+    "sha256_before": "9B7A3DC263D1AA7C6FB857374B5B38020B7ADAB32DC3593D9B89222C0517B860",
+    "sha256_after": "D5816017C0603D7C9B445EB47C338337D7A64963457B0ED360857B97C812059C",
+    "export_rva": "0x1B882",
+    "original_slot_rva": "0x6A5C4",
+    "hook_rva": "0x73C00",
+    "hook_size": 44,
+    "cleared_flag": "0x00002000",
+    "information_class": 9,
+    "checksum": "0x0007CA74"
+  }
+}

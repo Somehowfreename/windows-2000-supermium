@@ -1,0 +1,4 @@
+LIBRARY w2kjob2.dll
+
+EXPORTS
+_W2KIsProcessInJob@12

@@ -1,0 +1,72 @@
+SUPERMIUM WINDOWS 2000 Release Candidate 1 DIAGNOSTICS - COMPLETE DISCLOSURE
+================================================================
+
+Diagnostics run only when you explicitly start "Supermium with Diagnostics.cmd"
+and confirm that one session. Normal launches do not create a project diagnostic
+preference, project diagnostic log, or "Diagnostic Logs" folder. Nothing is
+transmitted or uploaded automatically.
+
+WHAT IS COLLECTED
+-----------------
+- Supermium Release Candidate 1 build and diagnostic schema versions.
+- Windows name, version, build, service-pack level, language code, installed
+  hotfix identifiers, logical processor count and available physical memory.
+- CPU model/manufacturer/clock/cache, physical processor count, machine
+  manufacturer/model and whether the machine identifies as a VM model.
+- Display adapter name, video memory, driver version, resolution, refresh rate,
+  color depth and device status.
+- Sound-device name, manufacturer and status.
+- Browser process exit code and session duration.
+- Privacy-safe Chromium event records. The launcher discards Chromium's raw text
+  and retains only a launcher-generated UTC time, sequence number, fixed category
+  (audio, video, media, decoder, graphics, sandbox, crash, extension, network or
+  browser) and severity (information, warning, error or fatal).
+- On YouTube only: HTML media event names, playback position and duration,
+  play/pause/seeking/ready/network states, buffering distance, playback rate,
+  volume/mute state, video dimensions, decoded/dropped/corrupted frame counts,
+  decoded audio/video byte counters, YouTube numeric player state and selected
+  playback-quality label when available.
+- Fixed tester markers selected from the diagnostic extension: playback working,
+  audio looping/repeating, audio missing, or video stuttering/freezing.
+
+WHAT IS NOT COLLECTED
+---------------------
+- Usernames, Windows account names or computer names.
+- IP addresses, MAC addresses, gateways, DNS servers or network configuration.
+- Hardware serial numbers, Windows product IDs or product keys.
+- Page URLs, YouTube video IDs, video titles, channel names or search terms.
+- Account names, email addresses, cookies, authentication data or passwords.
+- Form contents, messages, comments or other page text.
+- Browsing history, bookmarks, saved passwords or extension data.
+- Lists or contents of personal files.
+- Screenshots, microphone input, camera input or audio recordings.
+- Full crash dumps. Crash dumps are excluded because process memory can contain
+  private data; a maintainer may request one separately with a separate warning.
+
+PRIVACY CONTROLS
+----------------
+- Logs are written under the browser's "Diagnostic Logs" folder, beside
+  "Supermium W2K RC1.exe".
+- No diagnostic folder is created until an explicitly requested diagnostic
+  session is confirmed.
+- Every generated file is plain text or JSON Lines and can be opened in Notepad.
+- After a diagnostic browser session closes, you are offered the folder for review.
+- You may edit, delete, keep or decline to share any file.
+- The browser never sends these logs to the project or any third party.
+- Raw Chromium diagnostic messages are never written. They are reduced in memory
+  to fixed category/severity events. Structured YouTube records also pass through
+  a field/type whitelist and a final redaction layer before being written.
+- Diagnostic sessions use a new isolated temporary test profile under Diagnostics,
+  separate from normal browser data. The launcher deletes it after the browser
+  closes. If Windows reports that cleanup was incomplete, session-summary.txt says
+  so; do not share any "Private Temporary Profile-*" folder.
+
+WHY YOUTUBE TESTING IS REQUESTED
+--------------------------------
+YouTube page loading and video progression passed VM tests. Sustained audible
+playback could not be assessed conclusively because the available VirtualBox
+guest repeated audio buffers even for native Windows sounds before Supermium ran.
+Development did not have access to a bare-metal Windows 2000 computer, and VM
+testing can only establish so much about physical audio, graphics, timing and
+drivers. Bare-metal YouTube confirmation is therefore the principal reason for
+both this Release Candidate 1 label and its optional diagnostics.

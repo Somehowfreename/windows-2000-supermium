@@ -1,0 +1,19 @@
+{
+  "path": "work\\candidates\\supermium-144-r5-w2k-8\\Supermium\\pwrp_k32.dll",
+  "candidate": 8,
+  "implemented": [
+    "GetModuleHandleExW with correct output, result, and stdcall cleanup",
+    "FROM_ADDRESS and UNCHANGED_REFCOUNT semantics shared with ANSI bridge"
+  ],
+  "export_rva": "0x1A796",
+  "resolver_rva": "0x73200",
+  "relocation": {
+    "rva": "0x1A798",
+    "file_offset": "0x6C2CC",
+    "before_type": 3,
+    "after_type": 0
+  },
+  "checksum": "0x00079EF1",
+  "sha256_before": "03C139C4F959912AFCD67168B6EBDEE3072FE152397D0681830F6E2D1106A2CE",
+  "sha256_after": "7161AB7E44178F6770D7A73338D4F81868AC86ACB972FBBFC782ABF17C76C688"
+}

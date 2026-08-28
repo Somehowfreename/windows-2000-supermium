@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>YouTube Diagnostics</title>
+  <style>
+    body { font: 13px Arial, sans-serif; width: 300px; margin: 14px; color: #202124; }
+    h1 { font-size: 16px; margin: 0 0 8px; }
+    p { line-height: 1.35; }
+    button { display: block; width: 100%; margin: 7px 0; padding: 7px; }
+    #status { min-height: 18px; font-weight: bold; }
+    .privacy { font-size: 11px; color: #5f6368; }
+  </style>
+</head>
+<body>
+  <h1>Windows 2000 Release Candidate 1 Diagnostics</h1>
+  <p>While a YouTube video is playing, select a marker when you observe the result:</p>
+  <button data-marker="playback-working">Playback working normally</button>
+  <button data-marker="audio-looping">Audio looping or repeating</button>
+  <button data-marker="audio-missing">Audio missing</button>
+  <button data-marker="video-stuttering">Video stuttering or freezing</button>
+  <p id="status"></p>
+  <p class="privacy">Only the fixed marker and technical media state are recorded. The page URL, video title, video ID, channel and account are never collected.</p>
+  <script src="popup.js"></script>
+</body>
+</html>

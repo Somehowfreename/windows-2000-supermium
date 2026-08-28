@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.obj
+*.pdb
+*.ilk
+*.dll
+*.exe
+*.zip
+*.cab
+build/
+out/
+Diagnostic Logs/
+

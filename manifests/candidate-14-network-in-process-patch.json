@@ -1,0 +1,11 @@
+{
+  "candidate": 14,
+  "purpose": "host Chromium's Network Service inside the browser process on Windows 2000, bypassing its repeatedly terminating utility-process launch boundary",
+  "symbol": "content::IsInProcessNetworkService",
+  "source": "content/public/browser/network_service_util.cc:16",
+  "rva": "0x009950B0",
+  "replacement": "return true",
+  "checksum": "0x0C749C15",
+  "sha256_before": "0EE4224547FEF1ACEE80DEEEEE6CEC3EB4BB4D44FE870A4948271A78449BB2EA",
+  "sha256_after": "E03B42866745444CC7774DF35E73A7EE084B7E5A419497A4A71D32705584E19F"
+}

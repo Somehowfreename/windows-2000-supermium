@@ -1,0 +1,212 @@
+{
+  "input": "work\\compat\\p_s232-w2k-raw.dll",
+  "reference": "work\\candidates\\supermium-144-r5-w2k-14\\Supermium\\p_s232.dll",
+  "output": "work\\compat\\p_s232-w2k.dll",
+  "sha256": "6A2A33053D2E0EFCBB6D031AD68F6BD0B417B2D418A625BC193AFE5C756BB01D",
+  "checksum": "0x000127BF",
+  "section_rva": "0x00004200",
+  "section_raw_offset": "0x00002800",
+  "section_strategy": "extend-last-section",
+  "exports": {
+    "WSACleanup": {
+      "ordinal": 116,
+      "rva": "0x000011CE"
+    },
+    "WSACloseEvent": {
+      "ordinal": 46,
+      "rva": "0x00001000"
+    },
+    "WSACreateEvent": {
+      "ordinal": 58,
+      "rva": "0x00001015"
+    },
+    "WSADuplicateSocketW": {
+      "ordinal": 60,
+      "rva": "0x0000102A"
+    },
+    "WSAEnumNameSpaceProvidersW": {
+      "ordinal": 64,
+      "rva": "0x0000103F"
+    },
+    "WSAEnumNetworkEvents": {
+      "ordinal": 65,
+      "rva": "0x00001054"
+    },
+    "WSAEnumProtocolsW": {
+      "ordinal": 67,
+      "rva": "0x00001069"
+    },
+    "WSAEventSelect": {
+      "ordinal": 68,
+      "rva": "0x0000107E"
+    },
+    "WSAGetLastError": {
+      "ordinal": 111,
+      "rva": "0x00001093"
+    },
+    "WSAGetOverlappedResult": {
+      "ordinal": 69,
+      "rva": "0x000010A8"
+    },
+    "WSAIoctl": {
+      "ordinal": 79,
+      "rva": "0x000010BD"
+    },
+    "WSALookupServiceBeginW": {
+      "ordinal": 82,
+      "rva": "0x000010D2"
+    },
+    "WSALookupServiceEnd": {
+      "ordinal": 83,
+      "rva": "0x000010E7"
+    },
+    "WSALookupServiceNextW": {
+      "ordinal": 85,
+      "rva": "0x000010FC"
+    },
+    "WSARecv": {
+      "ordinal": 92,
+      "rva": "0x00001111"
+    },
+    "WSARecvFrom": {
+      "ordinal": 94,
+      "rva": "0x00001126"
+    },
+    "WSAResetEvent": {
+      "ordinal": 96,
+      "rva": "0x0000113B"
+    },
+    "WSASend": {
+      "ordinal": 97,
+      "rva": "0x00001150"
+    },
+    "WSASendTo": {
+      "ordinal": 100,
+      "rva": "0x00001165"
+    },
+    "WSASetEvent": {
+      "ordinal": 117,
+      "rva": "0x0000117A"
+    },
+    "WSASetServiceW": {
+      "ordinal": 119,
+      "rva": "0x0000118F"
+    },
+    "WSASocketW": {
+      "ordinal": 121,
+      "rva": "0x000011A4"
+    },
+    "WSAStartup": {
+      "ordinal": 115,
+      "rva": "0x000011B9"
+    },
+    "WSAWaitForMultipleEvents": {
+      "ordinal": 125,
+      "rva": "0x000011E3"
+    },
+    "WSCEnumProtocols": {
+      "ordinal": 133,
+      "rva": "0x000011F8"
+    },
+    "WSCGetProviderPath": {
+      "ordinal": 140,
+      "rva": "0x0000120D"
+    },
+    "accept": {
+      "ordinal": 1,
+      "rva": "0x00001222"
+    },
+    "bind": {
+      "ordinal": 2,
+      "rva": "0x00001237"
+    },
+    "closesocket": {
+      "ordinal": 3,
+      "rva": "0x0000124C"
+    },
+    "connect": {
+      "ordinal": 4,
+      "rva": "0x00001261"
+    },
+    "freeaddrinfo": {
+      "ordinal": 191,
+      "rva": "0x0000207C"
+    },
+    "getaddrinfo": {
+      "ordinal": 192,
+      "rva": "0x00001916"
+    },
+    "gethostname": {
+      "ordinal": 57,
+      "rva": "0x00001276"
+    },
+    "getpeername": {
+      "ordinal": 5,
+      "rva": "0x0000128B"
+    },
+    "getsockname": {
+      "ordinal": 6,
+      "rva": "0x000012A0"
+    },
+    "getsockopt": {
+      "ordinal": 7,
+      "rva": "0x000012B5"
+    },
+    "htonl": {
+      "ordinal": 8,
+      "rva": "0x000012CA"
+    },
+    "htons": {
+      "ordinal": 9,
+      "rva": "0x000012DF"
+    },
+    "inet_ntop": {
+      "ordinal": 194,
+      "rva": "0x00002169"
+    },
+    "ioctlsocket": {
+      "ordinal": 10,
+      "rva": "0x000012F4"
+    },
+    "listen": {
+      "ordinal": 13,
+      "rva": "0x00001309"
+    },
+    "ntohl": {
+      "ordinal": 14,
+      "rva": "0x0000131E"
+    },
+    "ntohs": {
+      "ordinal": 15,
+      "rva": "0x00001333"
+    },
+    "recv": {
+      "ordinal": 16,
+      "rva": "0x00001348"
+    },
+    "recvfrom": {
+      "ordinal": 17,
+      "rva": "0x0000135D"
+    },
+    "send": {
+      "ordinal": 19,
+      "rva": "0x00001372"
+    },
+    "sendto": {
+      "ordinal": 20,
+      "rva": "0x00001387"
+    },
+    "setsockopt": {
+      "ordinal": 21,
+      "rva": "0x0000139C"
+    },
+    "shutdown": {
+      "ordinal": 22,
+      "rva": "0x000013B1"
+    },
+    "socket": {
+      "ordinal": 23,
+      "rva": "0x000013C6"
+    }
+  }
+}

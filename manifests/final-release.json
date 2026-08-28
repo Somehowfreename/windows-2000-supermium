@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "release": "Supermium 144 R5 for Windows 2000 - Release Candidate 1",
+  "release_date": "2026-08-25",
+  "upstream": {
+    "repository": "https://github.com/win32ss/supermium.git",
+    "tag": "v144-r5",
+    "commit": "0cdb6d9aa53c96875f637f7303115fb8fdd9d502",
+    "browser_version": "144.0.7559.256",
+    "package": "supermium_144_32_nonsetup.zip",
+    "package_sha256": "17ACFCDF89EA651905053B50B0FCE5A28DB19CB2C69ED5579C7B177806ED6D31"
+  },
+  "compatibility_baseline": "candidate19",
+  "release_assets": [
+    {
+      "name": "Supermium-144.0.7559.256-R5-Windows-2000-RC1-x86.zip",
+      "bytes": 147476235,
+      "sha256": "8A2DD0CB44711210A458E2F1D4B04038F98091845D8E491001FBC70BC7B42CDA"
+    },
+    {
+      "name": "Supermium-144.0.7559.256-R5-Windows-2000-RC1-x86.exe",
+      "bytes": 119068331,
+      "sha256": "672E114BBDABB0A148C3B4966B4E902BF742A517BF7FF992803A2F37C28B029A"
+    },
+    {
+      "name": "Certificates-Installer-Windows-2000.zip",
+      "bytes": 315210,
+      "sha256": "BA6C68E4FF3915F722B32474D1B5F028E89DBD3B928CC1E62EEB6AAA132BCCAB"
+    },
+    {
+      "name": "Certificates-Installer-Windows-2000.exe",
+      "bytes": 254779,
+      "sha256": "90144F113B67187C144562CB784B1E6285B930E1CC5521C7D69ACB45221C1DC8"
+    }
+  ],
+  "final_components": [
+    {"name": "chrome.exe", "bytes": 2713088, "sha256": "52CC9AE71BD5A847ED26D676BABB43F6308C62E0EBEEFD19363DADBCF8F2C38B"},
+    {"name": "pwrp_k32.dll", "bytes": 461312, "sha256": "D5816017C0603D7C9B445EB47C338337D7A64963457B0ED360857B97C812059C"},
+    {"name": "p_cryptp.dll", "bytes": 5632, "sha256": "4611005457D32E945F5AD0CC0037F0A269ECB882DF879798C8AFE5382B654298"},
+    {"name": "p_ole.dll", "bytes": 4544000, "sha256": "926206CE0C5D8F78111095A9A75989D308F24C2860AB6553DD386A9E83553C23"},
+    {"name": "p_s232.dll", "bytes": 12288, "sha256": "6A2A33053D2E0EFCBB6D031AD68F6BD0B417B2D418A625BC193AFE5C756BB01D"},
+    {"name": "p_wtsapi.dll", "bytes": 2560, "sha256": "418E34C1122C226ED62EDE8685E03908B4AF6C7227A9DB9E35614276964961C7"},
+    {"name": "w2kjob2.dll", "bytes": 3584, "sha256": "C6D278D399A03C71DFD5B701C6DFB37DA412ED0186264A69BAD458627A5CC2ED"},
+    {"name": "w2ksync.dll", "bytes": 7168, "sha256": "F1EDAC1B7975E8C44067B33C91112FA4999340424078DDBE4E163E25677116AC"},
+    {"name": "w2kveh.dll", "bytes": 7680, "sha256": "6F547006ED4BE7FCE6F47739FE4D2002541071B7C2F84785BCEC4CBDF76E0693"},
+    {"name": "Supermium W2K RC1.exe", "bytes": 25600, "sha256": "E72DF51E05DE98F5F309FF2307923026A8E0EC3A57491920EADB41DA04D3B543"}
+  ],
+  "certificate_bundle": {
+    "date": "2026-08-13 03:12:01 GMT",
+    "roots": 121,
+    "sha256": "F66DFF1BDF8F96060B8177976F8B7D9254BC89BC4DB933D769F7384D28480BC9"
+  }
+}

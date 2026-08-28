@@ -1,0 +1,12 @@
+Mozilla CA certificate data
+---------------------------
+The included certificate bundle is a converted copy of Mozilla certificate
+data obtained through the curl CA Extract service.
+
+Source: https://curl.se/docs/caextract.html
+Direct bundle: https://curl.se/ca/cacert.pem
+License: Mozilla Public License 2.0
+License text: LICENSE-MPL-2.0.txt
+
+The W2KROOTS utility is original project code and is not part of Mozilla or
+the curl project. Mozilla and curl do not endorse this installer.

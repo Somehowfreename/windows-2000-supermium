@@ -1,0 +1,254 @@
+{
+  "consumer": "work\\candidates\\supermium-144-r5-w2k-14\\Supermium\\144.0.7559.256\\chrome.dll",
+  "dll_name": "p_s232.dll",
+  "replacement": "work\\compat\\p_s232-w2k.dll",
+  "import_count": 49,
+  "missing": [],
+  "imports": [
+    {
+      "import": "WSACloseEvent",
+      "satisfied": true,
+      "replacement": 46
+    },
+    {
+      "import": "WSACreateEvent",
+      "satisfied": true,
+      "replacement": 58
+    },
+    {
+      "import": "WSADuplicateSocketW",
+      "satisfied": true,
+      "replacement": 60
+    },
+    {
+      "import": "WSAEnumNameSpaceProvidersW",
+      "satisfied": true,
+      "replacement": 64
+    },
+    {
+      "import": "WSAEnumNetworkEvents",
+      "satisfied": true,
+      "replacement": 65
+    },
+    {
+      "import": "WSAEnumProtocolsW",
+      "satisfied": true,
+      "replacement": 67
+    },
+    {
+      "import": "WSAEventSelect",
+      "satisfied": true,
+      "replacement": 68
+    },
+    {
+      "import": "#111",
+      "satisfied": true,
+      "replacement": "WSAGetLastError"
+    },
+    {
+      "import": "WSAGetOverlappedResult",
+      "satisfied": true,
+      "replacement": 69
+    },
+    {
+      "import": "WSAIoctl",
+      "satisfied": true,
+      "replacement": 79
+    },
+    {
+      "import": "WSALookupServiceBeginW",
+      "satisfied": true,
+      "replacement": 82
+    },
+    {
+      "import": "WSALookupServiceEnd",
+      "satisfied": true,
+      "replacement": 83
+    },
+    {
+      "import": "WSALookupServiceNextW",
+      "satisfied": true,
+      "replacement": 85
+    },
+    {
+      "import": "WSARecv",
+      "satisfied": true,
+      "replacement": 92
+    },
+    {
+      "import": "WSARecvFrom",
+      "satisfied": true,
+      "replacement": 94
+    },
+    {
+      "import": "WSAResetEvent",
+      "satisfied": true,
+      "replacement": 96
+    },
+    {
+      "import": "WSASend",
+      "satisfied": true,
+      "replacement": 97
+    },
+    {
+      "import": "WSASendTo",
+      "satisfied": true,
+      "replacement": 100
+    },
+    {
+      "import": "WSASetEvent",
+      "satisfied": true,
+      "replacement": 117
+    },
+    {
+      "import": "WSASetServiceW",
+      "satisfied": true,
+      "replacement": 119
+    },
+    {
+      "import": "WSASocketW",
+      "satisfied": true,
+      "replacement": 121
+    },
+    {
+      "import": "#115",
+      "satisfied": true,
+      "replacement": "WSAStartup"
+    },
+    {
+      "import": "WSAWaitForMultipleEvents",
+      "satisfied": true,
+      "replacement": 125
+    },
+    {
+      "import": "WSCEnumProtocols",
+      "satisfied": true,
+      "replacement": 133
+    },
+    {
+      "import": "WSCGetProviderPath",
+      "satisfied": true,
+      "replacement": 140
+    },
+    {
+      "import": "#1",
+      "satisfied": true,
+      "replacement": "accept"
+    },
+    {
+      "import": "#2",
+      "satisfied": true,
+      "replacement": "bind"
+    },
+    {
+      "import": "#3",
+      "satisfied": true,
+      "replacement": "closesocket"
+    },
+    {
+      "import": "#4",
+      "satisfied": true,
+      "replacement": "connect"
+    },
+    {
+      "import": "freeaddrinfo",
+      "satisfied": true,
+      "replacement": 191
+    },
+    {
+      "import": "getaddrinfo",
+      "satisfied": true,
+      "replacement": 192
+    },
+    {
+      "import": "#57",
+      "satisfied": true,
+      "replacement": "gethostname"
+    },
+    {
+      "import": "#5",
+      "satisfied": true,
+      "replacement": "getpeername"
+    },
+    {
+      "import": "#6",
+      "satisfied": true,
+      "replacement": "getsockname"
+    },
+    {
+      "import": "#7",
+      "satisfied": true,
+      "replacement": "getsockopt"
+    },
+    {
+      "import": "#8",
+      "satisfied": true,
+      "replacement": "htonl"
+    },
+    {
+      "import": "#9",
+      "satisfied": true,
+      "replacement": "htons"
+    },
+    {
+      "import": "inet_ntop",
+      "satisfied": true,
+      "replacement": 194
+    },
+    {
+      "import": "#10",
+      "satisfied": true,
+      "replacement": "ioctlsocket"
+    },
+    {
+      "import": "#13",
+      "satisfied": true,
+      "replacement": "listen"
+    },
+    {
+      "import": "#14",
+      "satisfied": true,
+      "replacement": "ntohl"
+    },
+    {
+      "import": "#15",
+      "satisfied": true,
+      "replacement": "ntohs"
+    },
+    {
+      "import": "#16",
+      "satisfied": true,
+      "replacement": "recv"
+    },
+    {
+      "import": "#17",
+      "satisfied": true,
+      "replacement": "recvfrom"
+    },
+    {
+      "import": "#19",
+      "satisfied": true,
+      "replacement": "send"
+    },
+    {
+      "import": "#20",
+      "satisfied": true,
+      "replacement": "sendto"
+    },
+    {
+      "import": "#21",
+      "satisfied": true,
+      "replacement": "setsockopt"
+    },
+    {
+      "import": "#22",
+      "satisfied": true,
+      "replacement": "shutdown"
+    },
+    {
+      "import": "#23",
+      "satisfied": true,
+      "replacement": "socket"
+    }
+  ]
+}

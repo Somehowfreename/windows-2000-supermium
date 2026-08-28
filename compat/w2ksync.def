@@ -1,0 +1,16 @@
+LIBRARY w2ksync.dll
+
+EXPORTS
+_W2KAcquireSRWLockExclusive@4
+_W2KAcquireSRWLockShared@4
+_W2KInitializeConditionVariable@4
+_W2KInitializeSRWLock@4
+_W2KIsProcessInJob@12
+_W2KReleaseSRWLockExclusive@4
+_W2KReleaseSRWLockShared@4
+_W2KSleepConditionVariableCS@12
+_W2KSleepConditionVariableSRW@16
+_W2KTryAcquireSRWLockExclusive@4
+_W2KTryAcquireSRWLockShared@4
+_W2KWakeAllConditionVariable@4
+_W2KWakeConditionVariable@4

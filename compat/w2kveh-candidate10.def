@@ -1,0 +1,8 @@
+LIBRARY w2kveh-candidate10.dll
+
+EXPORTS
+_W2KAddVectoredExceptionHandler@8
+_W2KConvertStringSidToSidW@8
+_W2KGetModuleHandleExA@12
+_W2KGetModuleHandleExW@12
+_W2KRemoveVectoredExceptionHandler@4
