@@ -1,5 +1,7 @@
 # Supermium 144 R5 for Windows 2000 — Release Candidate 1
 
+This is a fully functional native Windows 2000 browser for the everyday browsing and media features confirmed below, including modern HTTPS sites, JavaScript, extensions, downloads, PDFs, and YouTube video with audio.
+
 This repository contains the Windows 2000 compatibility work, reproducible binary-patch chain, native bridge sources, opt-in diagnostics, certificate tools, tests, and packaging source for an unofficial 32-bit build of [Supermium](https://github.com/win32ss/supermium). It is based on Supermium `v144-r5`, Chromium `144.0.7559.256`, upstream commit `0cdb6d9aa53c96875f637f7303115fb8fdd9d502`.
 
 The browser runs natively on Windows 2000. It does **not** require One-Core-API, an extended kernel, replacement Windows system DLLs, or `--no-sandbox`. The Windows 2000 compatibility launcher enables the working legacy Chromium sandbox.
