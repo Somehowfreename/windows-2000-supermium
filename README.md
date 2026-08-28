@@ -4,7 +4,7 @@ This repository contains the Windows 2000 compatibility work, reproducible binar
 
 The browser runs natively on Windows 2000. It does **not** require One-Core-API, an extended kernel, replacement Windows system DLLs, or `--no-sandbox`. The Windows 2000 compatibility launcher enables the working legacy Chromium sandbox.
 
-This is Release Candidate 1 because audible YouTube output still needs confirmation on bare-metal Windows 2000. Browser-level audio decoding and sustained video playback pass in virtual machines, but the available VirtualBox audio device repeated ordinary Windows sounds before Supermium was started, so that VM cannot provide trustworthy audible-output evidence.
+YouTube video and audio playback were confirmed working perfectly in the tested Windows 2000 VMware setup, with smooth video and clear, synchronized audio. WebGL 1 and WebGL 2 were also confirmed working through the supplied SwiftShader launcher.
 
 ## Release downloads
 
@@ -44,14 +44,26 @@ The certificate package includes readable documentation, the original downloaded
 - Native startup on a clean, fully updated Windows 2000 SP4 installation made from an original Microsoft ISO.
 - Chrome `144.0.7559.256`, multi-process operation, and the legacy renderer sandbox without `--no-sandbox`.
 - TLS 1.3 and secure loading of GitHub, Reddit, YouTube, and issuer-diverse HTTPS test sites.
-- Downloads, PDF viewing, profiles, persistence, browser internal pages, WebGL/SwiftShader, and modern JavaScript/web-platform features.
+- Downloads, PDF viewing, profiles, persistence, browser internal pages, and modern JavaScript/web-platform features, including storage, workers, and fetch.
+- WebGL 1 and WebGL 2 through the supplied SwiftShader software-rendering launcher.
 - Extension install, permissions, enable/disable, request blocking, cosmetic filtering, restart persistence, and removal using uBlock Origin `1.73.0` (Manifest V2), AdBlock `6.44.0` (Manifest V3), and h264ify `2.0.1` (Manifest V3).
+- Manual YouTube testing confirmed smooth video, clear audible output, and synchronized playback in a Windows 2000 guest running under VMware Workstation `10.0.7` on an XP x64 host. VMware Tools was installed; VM 3D acceleration was disabled and Windows Media Player 9 was not installed. h264ify also worked in this setup.
 - Exact-release-ZIP YouTube playback on AV1/Opus for 57.50 seconds with 1,529 decoded frames, 9 dropped frames (0.59%), decoded audio bytes, buffered media, and no media error.
 - Exact-release-ZIP YouTube playback through h264ify-compatible H.264/AAC selection for 57.96 seconds with 1,738 decoded frames, 7 dropped frames (0.40%), decoded audio bytes, buffered media, and no media error.
 - YouTube pause, resume, seeking, volume state, and tab closure.
 - Both native self-extractors on untouched Windows 2000 SP4: 316 browser files and 133 certificate-package files extracted successfully.
 
-YouTube and other modern services change continuously. The measurements above document this exact build and test date; they are not a permanent service guarantee. h264ify is compatible and recommended for slower hardware, but is not bundled.
+h264ify is compatible and recommended for slower hardware. Install it separately if you want to use it; it is not bundled.
+
+## Using WebGL
+
+Run `Supermium (SwiftShader Portable).cmd` to use the confirmed WebGL 1 and WebGL 2 support. This launcher selects SwiftShader, which renders using the CPU, and uses its own `portable_data_swiftshader` profile. The normal launchers keep their existing graphics settings; the SwiftShader path is an optional choice.
+
+## Performance
+
+Performance depends on the machine's specifications, especially CPU capability and available RAM, as well as its drivers and the page or video being played. Windows 2000-era computers span a wide range: some are below what a modern Chromium browser needs, while others comfortably exceed it. Use the requirements above as a guide; video resolution and frame rate should suit the hardware.
+
+On weaker or CPU-limited systems, a taskbar workaround helped YouTube playback in a low-resource Windows 2000 VM test: click the **Windows taskbar**, leaving the video visible, and give playback time to catch up. Video and audio became smooth and synchronized; after allowing it to settle, returning focus to the browser kept playback smooth. This is only relevant to lower-spec setups that need it, not a required step for normal browsing.
 
 ## Diagnostics are strictly opt-in
 
@@ -61,13 +73,9 @@ An accepted session creates readable text/JSON Lines beside the launcher, never 
 
 The collector excludes usernames, computer names, IP/MAC addresses, URLs, YouTube titles and IDs, accounts, cookies, passwords, form contents, history, personal-file information, screenshots, recordings, and crash dumps. The exact final-package test produced 66 valid media records, passed the privacy scan, and completed temporary-profile cleanup. See [docs/DIAGNOSTICS.md](docs/DIAGNOSTICS.md).
 
-## Known limits
+## Report an issue
 
-- Audible YouTube output needs bare-metal Windows 2000 confirmation.
-- WebGPU did not expose an adapter in the validated 32-bit VM.
-- Commercial Widevine DRM playback, including Netflix, is not claimed.
-- A 32-bit process and operating system remain constrained by their address space. Testing found 1.75 GB RAM and one CPU to be a lower functional YouTube boundary, but cold startup there was unreliable; 2 GB/two CPUs is the supported recommendation.
-- Windows 2000 is unsupported and no longer receives Microsoft security fixes. Running a modern browser does not make the operating system safe.
+If you experience any issue, please [raise it on GitHub](https://github.com/Somehowfreename/windows-2000-supermium/issues). Describe what happened, how to reproduce it, and your machine's specifications. Diagnostic logs are optional; review them before sharing.
 
 ## Source and licensing
 
